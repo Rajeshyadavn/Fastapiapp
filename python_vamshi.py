@@ -1,5 +1,6 @@
 def prep_data_inq(self, df_inq_raw):
-    
+    import numpy as np  
+    import pandas as pd
     try:
 
         df_inq_raw.columns = df_inq_raw.columns.str.lower()
